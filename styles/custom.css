@@ -41,6 +41,7 @@ a{
   width: 20%;
   border-radius: 100%;
   float: left;
+  position: relative;
 }
 .username{
   text-align: left;
@@ -62,14 +63,8 @@ a{
 .container-works{
   padding: 3% 15% 7%;
 }
-
-
-}
-.foot-text {
-  font-family: 'Montserrat-light';
-  font-weight: bold;
-  color: white;
-  font-size: 4rem;
+.foot{
+  padding: 3% 15% 7%;
 }
 .social {
   margin: 20px 10px;
@@ -77,15 +72,18 @@ a{
 .anchor {
   color: black;
 }
-@media (max-width:1000px) {
+.mb2, .my-2{
+  margin-bottom: .5rem!important
+}
+@media (max-width:900px) {
   #title {
     text-align: center;
   }
-
   .title-img {
     width: 40%;
     border-radius: 100%;
     padding-top: 20px;
+    position: static;
   }
   .username{
     text-align: left;
@@ -97,10 +95,59 @@ a{
   }
   .Opening-quote{
     text-align: left;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
     position: relative;
     font-family: "ubuntu";
     left: 30px;
     font-size: 1rem;
     font-weight: bold;
   }
+  .container-fluid {
+    padding: 3% 15% 7%;
+    font-size: 1rem;
+  }
+.image-thumb{
+  position: static;
+}
+.navbar {
+  padding: 0 0 2.5rem;
+}
+@media (max-width:900px) and (mix-width:570px)
+#title {
+  text-align: center;
+}
+.title-img {
+  width: 20%;
+  border-radius: 100%;
+  padding-top: 20px;
+  position: static;
+}
+.username{
+  text-align: left;
+  position: relative;
+  left: 30px;
+  padding-top: 50px;
+  font-family: "ubuntu";
+  font-size: 1rem;
+}
+.Opening-quote{
+  text-align: left;
+  padding-top: 5px;
+  padding-right: 10px;
+  position: relative;
+  font-family: "ubuntu";
+  left: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+  font-size: 1rem;
+}
+.image-thumb{
+position: static;
+}
+.navbar {
+padding: 0 0 2.5rem;
+}
